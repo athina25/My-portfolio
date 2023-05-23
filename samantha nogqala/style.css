@@ -1,0 +1,58 @@
+body{ 
+    margin: 0px;
+   padding: 0px; 
+ background-color: bisque;   
+}
+.nav-bar{
+   background-color:rgb(240, 220, 220) ;
+   
+}
+.nav-container{ 
+    display: flex;
+    justify-content: end;
+
+}
+.nav-link{ 
+    margin:8px ;
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+
+}
+h1{
+    text-align: center;
+}
+.details{
+    width: 150px;
+    height: 40px;
+}
+.msg{
+    width: 320px;
+    height: 80px;
+}
+.container{
+    text-align: center;
+}
+.foot{
+    background-color: gray;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+.column{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.row{
+    display: flex;
+}
+.column{
+    width: 33.33%;
+    padding: 5px; 
+}
